@@ -28,6 +28,14 @@
 - **Line Length:** Limit lines to 120 characters.
 - **Usings:** Place `using` statements outside the namespace and remove unused usings.
 
+## Unit Test Standards
+
+### General Principles
+- **Test Framework:** Use NUnit and NSubstitute as appropriate for the project.
+- **Test Naming:** Use descriptive method names: `MethodName_StateUnderTest_ExpectedBehavior`.
+- **Test Structure:** Follow Arrange-Act-Assert (AAA) pattern in all tests.
+- **Isolation:** Each test should be independent and not rely on the outcome of other tests.
+- **Mocking:** Use mocks or fakes for external dependencies (e.g. APIs) to ensure tests are deterministic.
 ---
 
 ## Copilot Usage
