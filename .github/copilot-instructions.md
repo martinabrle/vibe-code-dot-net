@@ -1,5 +1,4 @@
 # copilot-instructions.md
-# source https://blairrobinson757.medium.com/github-copilot-custom-instructions-49c51a402fca
 
 ## Coding Standards
 
